@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.weather-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.weather-list {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 2px 4px #ccc;
+  margin: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
