@@ -1,10 +1,11 @@
 export default interface IWeatherData {
-  list: []
   id?: any | null,
   name: string,
   description: string,
   icon: boolean,
-  dt_txt: string
+  dt: number
   main: any
   weather: any
+  temp:any
+  rain: number
 }
